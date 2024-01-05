@@ -4,7 +4,7 @@ public class Employee {
     private String midname;
     private int department;
     private double salary;
-    private int idCount = 1;
+    private static int idCount = 1;
     private int id;
     public Employee (String name, String surname, String midname, int department, double salary) {
         this.name = name;
