@@ -10,7 +10,7 @@ public class Main {
         employeeCorp[6] = new Employee("Владимир", "Киселев", "Андреевич", 2, 105000);
         employeeCorp[7] = new Employee("Николай", "Головин", "Алексеевич", 1, 165000);
         employeeCorp[8] = new Employee("Андрей", "Хохлов", "Петрович", 2, 141000);
-        employeeCorp[9] = new Employee("Дмитрий", "Сергеев", "Николаевич", 3, 124000);
+        employeeCorp[9] = new Employee("Дмитрий", "Маврин", "Николаевич", 3, 124000);
         printAllEmployee (employeeCorp);
         System.out.println("Фонд отплаты труда: " + calculateAllSalary(employeeCorp));
         System.out.println("Сотрудник с минимальной зарплатой: " + getEmployeeWithMinSalary(employeeCorp));
